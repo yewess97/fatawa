@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Laravel project/Fatawa_Project/.idea/Fatawa_Project.iml" filepath="$PROJECT_DIR$/../Laravel project/Fatawa_Project/.idea/Fatawa_Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Final Project - YAT Web Track - Yousif Ayman.iml" filepath="$PROJECT_DIR$/.idea/Final Project - YAT Web Track - Yousif Ayman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Laravel project/laravel-main/.idea/laravel-main.iml" filepath="$PROJECT_DIR$/../Laravel project/laravel-main/.idea/laravel-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Laravel project/november9/.idea/november9.iml" filepath="$PROJECT_DIR$/../Laravel project/november9/.idea/november9.iml" />
+    </modules>
+  </component>
+</project>
