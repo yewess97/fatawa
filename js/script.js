@@ -64,6 +64,7 @@ $(document).ready(function () {
 
     $('[data-toggle="tooltip"]').tooltip();
 
+    /*
     function getAJAX(url) {
         var results;
         $.ajax
@@ -87,7 +88,7 @@ $(document).ready(function () {
 
     var language = $("html").attr("lang"); //get language from html set lang="en" or lang ="ar" if you don't set it
 
-    /* countries */
+    // countries
     var conutriesURL = 'http://api.geonames.org/countryInfoJSON?q=&country=&lang=ar&username=abdulnaser_mohsen'; //url that get your conuntries
     var countries = getAJAX(conutriesURL); // the importance of async test without aync or aync is true
     //console.log(countries);
@@ -98,7 +99,9 @@ $(document).ready(function () {
         selectOption.attr("value", item.geonameId).append(item.countryName);
         $('.country').append(selectOption);
     });
+    */
 });
+
 
 (function ($) {
     'use strict';

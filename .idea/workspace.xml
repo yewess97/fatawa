@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5cb6d53-384e-44b1-ad5b-e81c1bd51fac" name="Default Changelist" comment="" />
+    <list default="true" id="a5cb6d53-384e-44b1-ad5b-e81c1bd51fac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/carousel1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/section-profile-background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/profile-favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile-favourites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,7 +22,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Laravel project/november9" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1m4nULLkfTz951SSycpv8iLikQ6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,10 +31,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Laravel project/Fatawa_Project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -49,6 +61,11 @@
       <workItem from="1609411070208" duration="11262000" />
       <workItem from="1609508387443" duration="41559000" />
       <workItem from="1609596208971" duration="2920000" />
+      <workItem from="1609694216841" duration="27880000" />
+      <workItem from="1609762069418" duration="43353000" />
+      <workItem from="1609876736361" duration="4220000" />
+      <workItem from="1609882938175" duration="673000" />
+      <workItem from="1610029300948" duration="9035000" />
     </task>
     <servers />
   </component>

@@ -260,93 +260,62 @@
                         <form action="#" class="row form-register" method="post" enctype="multipart/form-data"
                               style="direction: rtl; text-align: right">
                             <div class="col-6">
-                                <label class="col-12">الاسم باللغة العربية
-                                    <input type="text" class="form-control mb-3" name="signupName_ar"
-                                           required="required" data-error="برجاء كتابة الاسم بالعربي">
-                                </label>
+                                <label class="col-12 required">الاسم باللغة العربية &nbsp;</label>
+                                <input type="text" class="form-control mb-3" name="name_ar">
                             </div>
                             <div class="col-6">
-                                <label class="col-12">الاسم باللغة الانجليزية
-                                    <input type="text" class="form-control mb-3" name="signupName_en"
-                                           required="required" data-error="برجاء كتابة الاسم بالانجليزي">
-                                </label>
+                                <label class="col-12 required">الاسم باللغة الانجليزية &nbsp;</label>
+                                <input type="text" class="form-control mb-3" name="name_en">
                             </div>
                             <div class="col-6">
-                                <label class="col-12">تاريخ الميلاد
-                                    <input type="date" class="form-control mb-3" name="signupBirth"
-                                           required="required" data-error="برجاء كتابة تاريخ الميلاد">
-                                </label>
+                                <label class="col-12 required">تاريخ الميلاد &nbsp;</label>
+                                <input type="date" class="form-control mb-3" name="birth_date">
                             </div>
                             <div class="col-6">
-                                <label class="col-12">النوع
-                                    <select class="input form-control mb-3" style="cursor: pointer" required
-                                            name="signupGender">
-                                        <option value="" disabled selected hidden></option>
-                                        <option value="male">ذكر</option>
-                                        <option value="female">أنثى</option>
-                                    </select>
-                                </label>
+                                <label class="col-12 required">النوع &nbsp;</label>
+                                <select class="input form-control mb-3" style="cursor: pointer" name="gender">
+                                    <option value="" disabled selected hidden></option>
+                                    <option value="male">ذكر</option>
+                                    <option value="female">أنثى</option>
+                                </select>
                             </div>
                             <div class="col-6">
-                                <label class="col-12">الايميل
-                                    <input type="email" class="form-control mb-3" name="signupEmail"
-                                           required="required" data-error="برجاء كتابة الايميل">
-                                </label>
+                                <label class="col-12 required">الايميل &nbsp;</label>
+                                <input type="email" class="form-control mb-3" name="email">
+                            </div>
+                            <div class="col-6 mb-4">
+                                <label class="col-12 required">الموبايل&nbsp;</label>
+                                <input type="text" class="form-control" name="mobile_number" value="">
                             </div>
                             <div class="col-6">
-                                <label class="col-12">تأكيد الايميل
-                                    <input type="email" class="form-control mb-3"
-                                           name="signupConfirmEmail"
-                                           required="required" data-error="برجاء كتابة الايميل مرة أخرى">
-                                </label>
+                                <label class="col-12 required">كلمة السر &nbsp;</label>
+                                <input type="password" class="form-control mb-3" name="password">
                             </div>
                             <div class="col-6">
-                                <label class="col-12">كلمة السر
-                                    <input type="password" class="form-control mb-3"
-                                           name="signupPassword"
-                                           required="required" data-error="برجاء كتابة كلمة السر">
-                                </label>
+                                <label class="col-12 required">تأكيد كلمة السر &nbsp;</label>
+                                <input type="password" class="form-control mb-3" name="password_confirmation">
                             </div>
                             <div class="col-6">
-                                <label class="col-12">تأكيد كلمة السر
-                                    <input type="password" class="form-control mb-3"
-                                           name="signupConfirmPassword"
-                                           required="required" data-error="برجاء كتابة كلمة السر مرة أخرى">
-                                </label>
+                                <label class="col-12 required">الحالة الاجتماعية &nbsp;</label>
+                                <select class="input form-control mb-3" aria-required="true" style="cursor: pointer"
+                                        name="social_status">
+                                    <option value="" disabled selected hidden></option>
+                                    <option value="single">أعزب/عزباء</option>
+                                    <option value="married">متزوج/متزوجة</option>
+                                    <option value="engaged">مخطوب/مخطوبة</option>
+                                    <option value="engaged">أرمل/أرملة</option>
+                                    <option value="engaged">مطلّق/مطلّقة</option>
+                                </select>
                             </div>
                             <div class="col-6">
-                                <label class="col-12">الدولة
-                                    <select class="input form-control mb-4 country" aria-required="true"
-                                            style="cursor: pointer" required name="signupCountry"></select>
-                                </label>
-                            </div>
-                            <div class="col-6">
-                                <label class="col-12">الحالة الاجتماعية
-                                    <select class="input form-control mb-3" aria-required="true" style="cursor: pointer"
-                                            required name="signupStatus">
-                                        <option value="" disabled selected hidden></option>
-                                        <option value="single">أعزب/عزباء</option>
-                                        <option value="married">متزوج/متزوجة</option>
-                                        <option value="engaged">مخطوب/مخطوبة</option>
-                                        <option value="engaged">أرمل/أرملة</option>
-                                        <option value="engaged">مطلّق/مطلّقة</option>
-                                    </select>
-                                </label>
-                            </div>
-                            <div class="col-6">
-                                <label class="col-12">الموبايل
-                                    <input type="text" class="form-control mb-3" name="signupPhone"
-                                           required="required" data-error="برجاء كتابة الموبايل">
-                                </label>
-                            </div>
-                            <div class="col-6">
-                                <label class="col-12">اخــتــر صـــورة
-                                    <input type="file" name="users_image" class="img-fluid btn btn-success" style="cursor: pointer" dir="ltr">
-                                </label>
+                                <label class="col-12">اخــتــر صـــورة</label>
+                                <input type="file" name="image" class="img-fluid btn btn-success"
+                                       style="cursor: pointer" dir="ltr">
                             </div>
                             <div class="col-12 mb-4">
-                                <label class="col-12 checkbox">أوافق على الشروط والأحكام
-                                    <input type="checkbox" name="signupRemember" required="required">
+                                <label class="col-12 checkbox" style="cursor: pointer">
+                                    <div class="required">أوافق على الشروط والأحكام &nbsp;</div>
+                                    <input type="checkbox" name="agreement">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
@@ -377,22 +346,20 @@
                     <form action="#" class="row form-register" method="post"
                           style="direction: rtl; text-align: right">
                         <div class="col-12">
-                            <label class="col-12">الايميل
-                                <input type="email" class="form-control mb-3" id="loginEmail" name="loginEmail"
-                                       required="required" data-error="برجاء كتابة الايميل">
-                            </label>
+                            <label class="col-12 required">الايميل &nbsp;</label>
+                            <input type="email" class="form-control mb-3" id="loginEmail" name="loginEmail"
+                                   required="required" data-error="برجاء كتابة الايميل">
                         </div>
                         <div class="col-12">
-                            <label class="col-12">كلمة السر
-                                <input type="password" class="form-control mb-4" id="loginPassword"
-                                       name="loginPassword"
-                                       required="required" data-error="برجاء كتابة كلمة السر">
-                            </label>
+                            <label class="col-12 required">كلمة السر &nbsp;</label>
+                            <input type="password" class="form-control mb-4" id="loginPassword"
+                                   name="loginPassword"
+                                   required="required" data-error="برجاء كتابة كلمة السر">
                         </div>
-                        <div class="col-2 mb-4">
-                            <label class="col-12 checkbox">تـــذكـــرنــــي
-                                <input type="checkbox" id="loginRemember"
-                                       name="loginRemember">
+                        <div class="col-12 mb-4">
+                            <label class="col-12 checkbox" style="cursor: pointer">
+                                <div>تـــذكـــرنــــي &nbsp;</div>
+                                <input type="checkbox" name="remember">
                                 <span class="checkmark"></span>
                             </label>
                         </div>
@@ -414,7 +381,7 @@
 
                 <!--Hero Slide 1-->
                 <div class="hero_slide">
-                    <img src="images/carousel1.jpg" class="hero_slide_background carousel1 img-fluid">
+                    <img src="images/ar_carousel1.jpg" class="hero_slide_background carousel1 img-fluid">
                     <div class="overlay" style="opacity: .1;"></div>
                 </div>
 
@@ -676,10 +643,12 @@
                         <div class="search_content text-center">
                             <h1 class="search_title">ارسل لنــا سؤالك</h1>
                             <form id="search_form" class="search_form" action="" method="post">
-                                <input id="search_form_title" class="search_form_title input_field" type="text" placeholder="موضــــوع الســــؤال"
-                                       required="required" data-error="يرجى إدخال موضوع السؤال" style="font-family: DroidArabicNaskh">
+                                <input id="search_form_title" class="search_form_title input_field" type="text"
+                                       placeholder="موضــــوع الســــؤال"
+                                       required="required" data-error="يرجى إدخال موضوع السؤال"
+                                       style="font-family: DroidArabicNaskh">
                                 <select id="search_form_category" class="search_form_category input_field" type="text"
-                                        required="required" data-error="اختر قسم السؤال">
+                                        required="required" name="search-form" data-error="اختر قسم السؤال">
                                     <option value="section-fatwa" disabled selected hidden>اختر القسم</option>
                                     <option value="aqidah">العقيدة</option>
                                     <option value="tafseer">التفسير</option>
@@ -690,7 +659,8 @@
                                 </select>
                                 <textarea id="search_form_question" class="search_form_question" type="text"
                                           placeholder="اكتب سؤالك هنا" required="required"
-                                          data-error="البعض من السؤال مطلوب" style="font-family: DroidArabicNaskh"></textarea>
+                                          data-error="البعض من السؤال مطلوب"
+                                          style="font-family: DroidArabicNaskh"></textarea>
                                 <button id="search_submit_button" type="submit" class="search_submit_button trans_200"
                                         value="Submit">ارسل
                                 </button>
