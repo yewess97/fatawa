@@ -35,7 +35,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     background: #FFFFFF;
-    color: #cdf8c2;
+    color: #ffffff;
     min-height: 800px;
 }
 
@@ -2197,8 +2197,8 @@ input:last-of-type {
 }
 
 .site-icon {
-    margin-left: 1rem!important;
-    margin-right: 0!important;
+    margin-left: 1rem !important;
+    margin-right: 0 !important;
     display: block;
     position: relative;
 }
@@ -2222,4 +2222,288 @@ input:last-of-type {
     height: 100%;
     padding: .5rem 1rem 3rem;
     position: relative;
+    direction: rtl;
+    text-align: right;
+}
+
+.site-content-item {
+    display: block;
+    margin-bottom: 0.75rem;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0;
+    max-width: 100%;
+    position: relative;
+}
+
+.site-content-item:first-child {
+    margin-top: 1rem;
+}
+
+.site-content-item:hover {
+    background-color: rgb(74, 124, 18);
+    transition: background-color 0.1s linear 0s;
+}
+
+.question-item {
+    padding: 0.9rem 0.6rem 0.4rem 0.6rem;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.fav-icon {
+    margin-left: 0.5rem !important;
+    margin-right: 0 !important;
+    align-self: baseline;
+}
+
+@media screen and (min-width: 1024px) {
+    .fav-icon-tooltip {
+        display: inline-block;
+        vertical-align: middle;
+        transform: perspective(1px) translateZ(0px);
+        box-shadow: transparent 0 0 1px;
+        transition-duration: 0.3s;
+        transition-property: transform, -webkit-transform;
+    }
+}
+
+.add-fav-icon {
+    width: 2rem;
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.icon-favourite {
+    font-size: 1.6em;
+    color: #b5b5b5;
+}
+
+.icon-fav-active {
+    font-size: 1.6em;
+    color: #4a7c12;
+}
+
+.icon-favourite:hover {
+    font-size: 1.9em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+    transition: all 400ms ease;
+}
+
+.question-title {
+    font-family: DroidArabicNaskh, sans-serif;
+    color: rgb(48, 48, 48);
+    display: flex;
+    flex-basis: 100%;
+}
+
+.question-date {
+    font-family: Nunito, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: rgb(181, 181, 181);
+    white-space: nowrap;
+    align-self: flex-start;
+}
+
+/*****************************************************************/
+
+.question-answer-section {
+    padding: 2rem;
+    direction: rtl;
+}
+
+@media screen and (min-width: 1216px) {
+    .container .single-fatwa {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+}
+
+@media print, screen and (min-width: 769px) {
+    .container .single-fatwa {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+.question-section-title {
+    font-family: NotoKufiArabic, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #242424;
+    line-height: 2;
+    word-break: break-word;
+}
+
+.question-layout {
+    margin: 2rem 0;
+    background-color: hsla(0, 0%, 85%, .2);
+    font-size: 16px;
+}
+
+.question-layout-items {
+    height: 47px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.question-layout-items, .question-layout-left, .question-layout-right, .answer-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.question-layout-left, .question-layout-right, .the-answer-txt {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-top: 0;
+}
+
+.question-layout-left, .the-answer-txt {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.question-level {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.question-id {
+    margin-left: .75rem;
+    margin-right: 2rem;
+    margin-bottom: 0;
+    border-left: 1px solid #cdc8b9;
+    padding-left: .75rem;
+    border-right: 0;
+    padding-right: 0;
+}
+
+.question-id-txt {
+    font-family: NotoKufiArabic, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 2;
+    position: relative;
+    color: #4a7c12;
+    word-break: break-word;
+}
+
+.question-id-icon {
+    color: #7fae4b;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.question-date-txt {
+    font-family: NotoKufiArabic, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #505050;
+    margin-bottom: 0;
+    margin-right: 0;
+    padding-left: .75rem;
+    padding-right: 0;
+    border-right: 0;
+    border-left: 0;
+    line-height: 2;
+    word-break: break-word;
+}
+
+.question-layout-right {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    font-size: 1rem;
+}
+
+.question-text {
+    font-family: DroidArabicNaskh, serif;
+    background-color: #f1f9e7;
+    border-left: 3px solid #4a7c12;
+    border-right: 3px solid #4a7c12;
+    color: #242424;
+    font-size: 1.143em;
+    font-weight: 700;
+    padding: 2rem;
+    line-height: 2;
+    word-break: break-word;
+}
+
+.the-question, .answer {
+    font-family: NotoKufiArabic, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    line-height: 2;
+    color: #4a7c12;
+    word-break: break-word;
+}
+
+.answer-text {
+    margin: 2rem 0;
+}
+
+.the-answer {
+    background-color: hsla(0, 0%, 85%, .2);
+    height: 47px;
+}
+
+.answer-item {
+    margin-left: .75rem;
+    margin-right: 2rem;
+}
+
+.answer-body {
+    font-family: DroidArabicNaskh, serif;
+    font-size: 1.143em;
+    font-weight: 700;
+    color: #303030;
+    line-height: 2;
+    word-break: break-word;
 }

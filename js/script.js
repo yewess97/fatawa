@@ -62,6 +62,22 @@ $(document).ready(function () {
         $('.data-count').css('background-color', '#eff7e5');
     });
 
+    $('.site-content-item').hover(function () {
+        $('.icon-favourite').css('color', 'white');
+        $('.icon-fav-active').css('color', 'white');
+        $('.question-title').css('color', 'white');
+        $('.question-date').css('color', 'white');
+    }, function () {
+        $('.icon-favourite').css('color', '#b5b5b5');
+        $('.icon-fav-active').css('color', '#4a7c12');
+        $('.question-title').css('color', 'rgb(48, 48, 48)');
+        $('.question-date').css('color', 'rgb(181, 181, 181)');
+    });
+
+    $('.add-fav-icon').on('click', function () {
+        $('.add-fav-icon i').replaceWith('<i class="fas fa-bookmark icon-fav-active"></i>');
+    });
+
     $('[data-toggle="tooltip"]').tooltip();
 
     /*
