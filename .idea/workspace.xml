@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a5cb6d53-384e-44b1-ad5b-e81c1bd51fac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/profile-favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile-favourites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/profile-my-questions.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile-my-questions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile/profile-send-question.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile-send-question.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/profile/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +64,7 @@
       <workItem from="1610105805363" duration="860000" />
       <workItem from="1610116522634" duration="30349000" />
       <workItem from="1610201272773" duration="15221000" />
+      <workItem from="1610279766674" duration="1485000" />
     </task>
     <servers />
   </component>
