@@ -21,16 +21,8 @@ $(document).ready(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 100) {
                 $('.language').hide();
-                var header = {height: '104px'};
-                $(".header").css(header);
-                var logo = {marginTop: '1rem'};
-                $(".logo_container").css(logo);
             } else {
                 $('.language').fadeIn(1000);
-                var header2 = {height: '10rem'};
-                $(".header").css(header2);
-                var logo2 = {marginTop: '2.5rem'};
-                $(".logo_container").css(logo2);
             }
         });
     }

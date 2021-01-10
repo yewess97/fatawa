@@ -71,11 +71,19 @@
         display: none;
     }
 
+    .first-half {
+        display: none;
+    }
+
     .logo_container {
         padding-left: 30px;
     }
 
     .hamburger_container {
+        display: block;
+    }
+
+    .profile_hamburger_container {
         display: block;
     }
 
@@ -159,6 +167,11 @@
 
     .hamburger_container {
         right: 5px;
+    }
+
+    .profile_hamburger_container {
+        top: 6%;
+        left: 5px;
     }
 
     .menu {

@@ -1,11 +1,11 @@
 $(document).ready(function () {
     "use strict";
 
-    var hamb = $('.hamburger');
     var header = $('.header');
     var hambActive = false;
     var menuActive = false;
-    var ctrl = new ScrollMagic.Controller();
+    var hambProfileActive = false;
+    var menuProfileActive = false;
 
     setHeader();
 
@@ -20,6 +20,7 @@ $(document).ready(function () {
     initHeroSlider();
     initSvg();
     initHamburger();
+    initProfileHamburger();
 
     function setHeader() {
         if (window.innerWidth < 992) {
@@ -170,6 +171,46 @@ $(document).ready(function () {
         fs.removeClass('active');
         hambActive = false;
         menuActive = false;
+    }
+
+
+    function initProfileHamburger() {
+        if ($('.profile_hamburger_container').length) {
+            var hambProfile = $('.profile_hamburger_container');
+
+            hambProfile.on('click', function (event) {
+                event.stopPropagation();
+
+                if (!menuProfileActive) {
+                    openProfileMenu();
+
+                    $(document).one('click', function cls(e) {
+                        if ($(e.target).hasClass('menu_profile')) {
+                            $(document).one('click', cls);
+                        } else {
+                            closeProfileMenu();
+                        }
+                    });
+                } else {
+                    $('.menu-half').removeClass('active');
+                    menuProfileActive = false;
+                }
+            });
+        }
+    }
+
+    function openProfileMenu() {
+        var fh = $('.menu-half');
+        fh.addClass('active');
+        hambProfileActive = true;
+        menuProfileActive = true;
+    }
+
+    function closeProfileMenu() {
+        var fh = $('.menu-half');
+        fh.removeClass('active');
+        hambProfileActive = false;
+        menuProfileActive = false;
     }
 
 });
