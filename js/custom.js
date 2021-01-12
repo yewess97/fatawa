@@ -144,7 +144,7 @@ $(document).ready(function () {
                 if (!menuActive) {
                     openMenu();
 
-                    $(document).one('click', function cls(e) {
+                    $(document).one('click', '.menu_item , .menu_close', function cls(e) {
                         if ($(e.target).hasClass('menu_mm')) {
                             $(document).one('click', cls);
                         } else {

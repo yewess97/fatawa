@@ -55,10 +55,10 @@ $(document).ready(function () {
     });
 
     $('.site-content-item').hover(function () {
-        $('.icon-favourite').css('color', 'white');
-        $('.icon-fav-active').css('color', 'white');
-        $('.question-title').css('color', 'white');
-        $('.question-date').css('color', 'white');
+        $(this).find('.icon-favourite').css('color', 'white');
+        $(this).find('.icon-fav-active').css('color', 'white');
+        $(this).find('.question-title').css('color', 'white');
+        $(this).find('.question-date').css('color', 'white');
     }, function () {
         $('.icon-favourite').css('color', '#b5b5b5');
         $('.icon-fav-active').css('color', '#4a7c12');
@@ -67,7 +67,14 @@ $(document).ready(function () {
     });
 
     $('.add-fav-icon').on('click', function () {
-        $('.add-fav-icon i').replaceWith('<i class="fas fa-bookmark icon-fav-active"></i>');
+        if ($(this).find('.far').hasClass('far')) {
+            $(this).find('.far').removeClass('far').addClass('fas').addClass('icon-fav-active');
+        } else {
+            $(this).find('.fas').removeClass('fas').removeClass('icon-fav-active').addClass('far');
+
+        }
+
+
     });
 
     $('[data-toggle="tooltip"]').tooltip();
