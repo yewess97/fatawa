@@ -73,8 +73,6 @@ $(document).ready(function () {
             $(this).find('.fas').removeClass('fas').removeClass('icon-fav-active').addClass('far');
 
         }
-
-
     });
 
     $('[data-toggle="tooltip"]').tooltip();
