@@ -35,7 +35,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     background: #FFFFFF;
-    color: #ffffff;
+    color: #000000;
     min-height: 800px;
 }
 
@@ -2566,4 +2566,106 @@ input:last-of-type {
     color: #303030;
     line-height: 2;
     word-break: break-word;
+}
+
+/*****************************************************************/
+
+.about {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("images/about-header-background.jpg") no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.about-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.about-section-title {
+    font-family: DroidArabicNaskh, "Times New Roman", serif;
+    font-size: 21px;
+    color: #303030;
+}
+
+.about-section-text p {
+    font-family: NotoKufiArabic, "Times New Roman", serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #3c7101;
+    margin-top: 2.5em;
+    margin-bottom: 1.3rem;
+}
+
+.about-section-text span, .about-section-text li {
+    font-family: DroidArabicNaskh, "Times New Roman", serif;
+    font-size: 1.1rem;
+    color: #303030;
+    margin-bottom: 1em;
+    line-height: 2;
+}
+
+.milestones {
+    width: 100%;
+    padding-top: 118px;
+    padding-bottom: 107px;
+    direction: rtl;
+}
+
+.milestones_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.milestone {
+    width: 100%;
+}
+
+.milestone_icon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+}
+
+.milestone_icon img {
+    width: 100%;
+}
+
+.milestone_counter {
+    font-size: 36px;
+    font-weight: 500;
+    color: #ffb606;
+    line-height: 1;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.milestone_text {
+    font-size: 22px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+
+.supervisor-title {
+    font-family: Tajawal, "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 2;
+    text-shadow: 2px 2px #abfcab;
+    color: #303030;
+}
+
+.supervisor p {
+    font-family: DroidArabicNaskh, "Times New Roman", serif;
+    font-size: 0.88rem;
+    color: #303030;
+    margin-bottom: 1.4em;
+    line-height: 2.2;
 }
